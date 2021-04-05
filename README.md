@@ -35,7 +35,7 @@ We use 8 GPUs (32GB V100) to train our detector, you can adjust the batch size i
 
 # Test
 ./tools/dist_test.sh configs/opanas/faster_rcnn_r50_opa_fpn_112_sml1_coco.py /path/to/your/save_dir/faster_opa_396.pth 8 --eval bbox
-./tools/dist_test.sh configs/opanas/cascade_rcnn_2r101_dcn_opa_fpn_160_2x_ms_coco.py /path/to/your/save_dir/cascade_opa_522.pth 8 --eval bbox --out out.pkl
+./tools/dist_test.sh configs/opanas/cascade_rcnn_2r101_dcn_opa_fpn_160_2x_ms_coco.py /path/to/your/save_dir/cascade_opa_522.pth 8 --eval bbox
 ```
     
 
