@@ -1,11 +1,20 @@
 ## OPANAS: One-Shot Path Aggregation Network Architecture Search for Object Detection
 
+Contact us with tingtingliang@pku.edu.cn, wyt@pku.edu.cn.
+
+
+## Introduction
+
 This project provides an implementation for our CVPR2021 paper "[OPANAS: One-Shot Path Aggregation Network Architecture Search for Object Detection](https://arxiv.org/abs/2103.04507)" on PyTorch.
 
 
+## Citation
+
+If you use our code/model/data, please cite our paper:
+https://arxiv.org/abs/2103.04507
 ## License
 
-This project is released under the [Apache 2.0 license](LICENSE).
+**The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
 
 
 
