@@ -6,7 +6,7 @@ Contact us with tingtingliang@pku.edu.cn, wyt@pku.edu.cn.
 ## Introduction
 
 This project provides an implementation for our CVPR2021 paper "[OPANAS: One-Shot Path Aggregation Network Architecture Search for Object Detection](https://arxiv.org/abs/2103.04507)" on PyTorch.
-
+The search code is coming soon.
 
 ## Citation
 
