@@ -10,8 +10,20 @@ The search code is coming soon.
 
 ## Citation
 
-If you use our code/model/data, please cite our paper:
-https://arxiv.org/abs/2103.04507
+If you use our code/model/data, please cite our paper
+
+```bibtex
+@inproceedings{liang2021opanas,
+  title={Opanas: One-shot path aggregation network architecture search for object detection},
+  author={Liang, Tingting and Wang, Yongtao and Tang, Zhi and Hu, Guosheng and Ling, Haibin},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={10195--10203},
+  year={2021}
+}
+```
+
+
+
 ## License
 
 **The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
@@ -46,11 +58,10 @@ We use 8 GPUs (32GB V100) to train our detector, you can adjust the batch size i
 ./tools/dist_test.sh configs/opanas/faster_rcnn_r50_opa_fpn_112_sml1_coco.py /path/to/your/save_dir/faster_opa_396.pth 8 --eval bbox
 ./tools/dist_test.sh configs/opanas/cascade_rcnn_2r101_dcn_opa_fpn_160_2x_ms_coco.py /path/to/your/save_dir/cascade_opa_522.pth 8 --eval bbox
 ```
-    
+
 
 
 ## Acknowledgement
 
 This repo is developed based on [mmdeteion](https://github.com/open-mmlab/mmdetection) and [SEPC](https://github.com/jshilong/SEPC). Please check mmdetection for more details and features.
-
 
